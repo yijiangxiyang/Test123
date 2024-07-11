@@ -19,4 +19,8 @@ public class MainActivity extends AppCompatActivity {
     private void test() {
         Log.e("====", "test method");
     }
+
+    private void testMyLog() {
+        MyLog.e("my log...");
+    }
 }
