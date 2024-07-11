@@ -12,5 +12,11 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         Log.e("====", "onCreate");
+
+        test();
+    }
+
+    private void test() {
+        Log.e("====", "test method");
     }
 }
