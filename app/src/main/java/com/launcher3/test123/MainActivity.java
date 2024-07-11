@@ -18,9 +18,11 @@ public class MainActivity extends AppCompatActivity {
 
     private void test() {
         Log.e("====", "test method");
+        testMyLog();
     }
 
     private void testMyLog() {
-        MyLog.e("my log...");
+        long time = System.currentTimeMillis();
+        MyLog.e("my log... time: " + time);
     }
 }
